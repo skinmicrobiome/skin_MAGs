@@ -83,7 +83,7 @@ rule make_csv:
              contamination=LoL[1][1]
              run=str(params.run)
              g = open(outfile, "w")
-             if float(completeness)>50 and float(contamination)<5:
+             if float(completeness)>=50 and float(contamination)<5:
                   g.write(run+','+completeness+','+contamination+'\n')
                   g.close()
                   h = open(params.qc, "a")
