@@ -1,0 +1,2 @@
+coassembly	r1	r2
+SAMPLE1	data/singlerun/SRR1761664_1.fastq,data/singlerun/SRR1761674_1.fastq	data/singlerun/SRR1761664_2.fastq,data/singlerun/SRR1761674_2.fastq

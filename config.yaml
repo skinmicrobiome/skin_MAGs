@@ -1,0 +1,8 @@
+
+#PATH TO DATABASES
+#
+db:
+  #path to gtdb database
+  gtdb_db: data/databases/release89
+
+
