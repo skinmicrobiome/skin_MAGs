@@ -128,7 +128,7 @@ rule dereplicate:
 rule mash_dist:
    input: 
       bins="QC_fasta/fasta_comp_cont/{euks}",
-      db="/hps/research1/finn/saary/projects/2020_eukmash_db/output/latest/mash/genbank-fungi.msh"
+      db="latest/mash/genbank-fungi.msh"
    output:
       join("MAG_genbank/mashdist/{euks}.tab"),
    threads: 1
